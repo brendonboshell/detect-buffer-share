@@ -1,7 +1,7 @@
 {
   "name": "detect-buffer-share",
   "description": "Detect Buffer Social Shares.",
-  "version": "1.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/brendonboshell/detect-buffer-share",
   "author": "Brendon Boshell <brendonboshell@gmail.com>",
   "license": "MIT",
