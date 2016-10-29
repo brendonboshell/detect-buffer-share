@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>detect-buffer-share Test Page</title>
+  <script src="detectbuffershare.js"></script>
+</head>
+<body>
+
+<h1>detect-buffer-share Test Page</h1>
+
+<p>Click the 'Buffer' button in your browser extension.</p>
+
+<p id="result">No event fired yet</p>
+
+<script>
+detectBufferShare.onBuffer(function () {
+  document.getElementById("result").innerHTML = "Buffer event fired";
+});
+</script>
+
+</body>
+</html>
